@@ -44,7 +44,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center"><Mail className="w-4 h-4 mr-2" /> support@jos.com</li>
-              <li className="flex items-center"><Phone className="w-4 h-4 mr-2" /> +1 (555) 123-4567</li>
+              <li className="flex items-center"><Phone className="w-4 h-4 mr-2" /> +234 904 383 2380</li>
               <li className="flex items-center"><MapPin className="w-4 h-4 mr-2" /> Jos, Nigeria</li>
             </ul>
           </div>
