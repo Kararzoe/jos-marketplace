@@ -79,7 +79,7 @@ export default function Navbar() {
               <Search className="w-5 h-5 text-gray-700 dark:text-gray-300" />
             </motion.button>
             {searchOpen && (
-              <div className="absolute top-full left-0 right-0 mt-2 px-4">
+              <div className="fixed md:absolute top-16 md:top-full left-0 right-0 md:mt-2 px-4 bg-white dark:bg-gray-900 md:bg-transparent py-4 md:py-0 z-50">
                 <div className="relative max-w-2xl mx-auto">
                   <input
                     type="text"
@@ -87,7 +87,7 @@ export default function Navbar() {
                     onChange={(e) => setSearchQuery(e.target.value)}
                     onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
                     placeholder="Search products..."
-                    className="w-full px-4 py-3 pr-12 rounded-lg border-2 focus:border-primary-500 focus:outline-none"
+                    className="w-full px-4 py-3 pr-12 rounded-lg border-2 focus:border-primary-500 focus:outline-none dark:bg-gray-800 dark:border-gray-700"
                     autoFocus
                   />
                   <button onClick={handleSearch} className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-primary-500 text-white rounded-lg">
