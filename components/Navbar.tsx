@@ -45,7 +45,6 @@ export default function Navbar() {
               Marketplace
             </span>
             <div className="absolute -bottom-1 left-0 w-12 h-0.5 bg-gradient-to-r from-primary-600 to-transparent"></div>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">Powered by Plero Digitals</p>
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">
