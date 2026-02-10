@@ -40,7 +40,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50 }}
-            className="fixed top-20 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-full max-w-2xl px-4"
+            className="fixed top-20 left-4 right-4 md:left-1/2 md:-translate-x-1/2 z-50 md:w-full md:max-w-2xl"
           >
             <div className="bg-white rounded-2xl shadow-2xl p-6">
               <div className="flex items-center gap-3 mb-6">
